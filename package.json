@@ -1,0 +1,25 @@
+{
+  "name": "test_gamedev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "test_task",
+  "author": "Ivan Ulanovich <ulanivan@yandex.ru>",
+  "scripts": {
+    "build": "nuxt build",
+    "lint": "vue-cli-service lint",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "precommit": "npm run lint",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.11.0",
+    "babel-loader": "^8.1.0",
+    "bootstrap-vue": "^2.15.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
