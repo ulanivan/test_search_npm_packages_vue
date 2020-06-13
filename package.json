@@ -6,11 +6,8 @@
   "author": "Ivan Ulanovich <ulanivan@yandex.ru>",
   "scripts": {
     "build": "nuxt build",
-    "lint": "vue-cli-service lint",
     "dev": "nuxt",
-    "generate": "nuxt generate",
-    "precommit": "npm run lint",
-    "start": "nuxt start"
+    "start": "nuxt build && nuxt start"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.11.0",
